@@ -1,0 +1,90 @@
+#wrapper {
+	margin: auto;
+	background-color: white;
+	border: 3px solid gray; 
+	width: 800px;
+	height: 75%;
+	padding: 10px;
+	overflow:auto;
+	display:block;
+	border-radius: 10px;
+}
+#header-container {
+	position: relative;
+    padding: 10px;
+	
+	/* border:3px solid gray; */
+}
+#logo {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+    /*padding: 0px; */
+}
+#main {
+	position: relative;	
+}
+#footer-container {
+	position:auto;
+	height: 100%;
+	padding: 5px;
+	font-family: ProximaNova-Regular, Helvetica, sans-serif;
+	font-size: 10pt; 
+	color: gray;
+	overflow: auto;
+}
+#survey_token{
+	position: 50%;
+	margin: auto;
+    /*border:3px solid gray; */
+    padding: 15px;
+	padding-bottom: 0px;
+}
+.body_survey {
+	background-color: rgb(255,255,255);
+}
+
+.title_planit {
+	position: auto;
+	font-family: ProximaNova-Regular, Helvetica, sans-serif;
+	font-size: 16pt;
+}
+
+.title_survey {
+	font-family: ProximaNova-Regular, Helvetica, sans-serif;
+	color: rgb(0,123,190);
+	font-size: 30pt;
+}
+
+.instruct {
+	font-family: ProximaNova-Regular, Helvetica, sans-serif;
+	font-size: 11pt; 
+}
+
+.container { 
+	width: 100%; 
+	height: 100%;
+	float: left; 
+	margin: 10px 0; 
+	font-family: ProximaNova-Regular, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+.text_font {
+	font-family: ProximaNova-Regular, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.container .onecolumn { width: 100%; float: left; }
+.container .twocolumn { width: 50%; float: left; }
+.commitbuttons { width: 100%; float: left; margin: 10px 0; }
+
+.required {
+  color: #EF5F5F;
+}  
+.error {
+	color: #EF5F5F;
+	font-family: ProximaNova-Regular, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+
